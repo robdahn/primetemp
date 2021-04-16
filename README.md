@@ -7,7 +7,7 @@ If you use any of the templates please site website and the Rilling and Franke p
 ## Primate preprocessing in CAT12
 To use the templates in CAT12 you have to copy the files into a _templates_animals_ sub directory in the cat toolbox directory and start CAT with ```
 cat12('oldworldmonkey')``` or ```cat12('greaterapes')``` that will open CAT12 in the developer mode with many further preprocessing options. By default CAT12 now uses Shooting you have to switch from Shooting to Dartel registration by setting the _Method_ field in the _Spatial Registion Option_ to 0.  The most critical step is the affine registration and the image should be roughly alligned to the template. You can use the SPM Display function do check and reorientate the images. 
-Surface-based preprocessing is and registration to the human FreeSurfer average brain is possible in principle and support interspecies coparison ([example]()) because the major gyri and sulci are quite similare.
+Surface-based preprocessing is and registration to the human FreeSurfer average brain is possible in principle and support interspecies coparison ([example](https://github.com/robdahn/primetemp/primates_DT_atlas.png)) because the major gyri and sulci are quite similare.
 
 Moreover, a chimplanzee template can be found [here](https://github.com/viko18/JunaChimp) that also include batch scripts to analyse aging in the 10 example chimps from [chimpanzeebrain.org](http://www.chimpanzeebrain.org/) or typing ```cat12('chimps')``` in the matlab command line to start CAT12 with chimpanzee settings. 
 
